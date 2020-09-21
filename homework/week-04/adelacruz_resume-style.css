@@ -1,0 +1,52 @@
+h1 {
+  font-family: "Helvetica Neue";
+  font-size: 40px;
+  color: #8d6ec8;
+}
+h2 {
+  font-family: "Helvetica Neue";
+  color: #88a6e5;
+  font-weight: 500;
+  font-size: 25px;
+}
+h3 {
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  color: #8d6ec8;
+  font-weight: 400;
+}
+h4 {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+}
+body {
+  background-image: url(gradient_bg.png);
+  background-repeat: repeat-x;
+}
+p {
+  font-family: "Helvetica Neue";
+  padding: 5px;
+  margin: 10px;
+
+  border-top-width: 20px;
+  border-top-style: ridge;
+  border-top-color: black;
+
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: black;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: black;
+
+  border: 1px solid black;
+}
+ul {
+  font-family: "Helvetica Neue";
+}
