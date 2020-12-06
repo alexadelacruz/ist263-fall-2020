@@ -111,14 +111,14 @@ aside {
 
 main {
   padding: 4em;
-  background: url('images/nycnight1.jpg') no-repeat;
+  background-image: url('images/nycnight1.jpg') no-repeat;
   background-size: 100%;
   background-position: center;
   background-size: cover;
 }
 
 #icon {
-  background: url('images/AMSTERDAM.JPG') no-repeat;
+  background-image: url('images/AMSTERDAM.JPG') no-repeat;
   background-size: 100%;
   border-radius: 50%;
   width: 75px;
