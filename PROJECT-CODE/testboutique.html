@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alexa's Guide to NYC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+            integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+                    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style type="text/css">
+@font-face {
+    font-family: 'Grayscale Signature Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Grayscale Signature Regular'), url('Grayscale Signature.woff') format('woff');
+}
+
+h1,h2 {
+    font-family: 'Grayscale Signature Regular';
+}
+
+body, html {
+    height: calc(100%);
+    margin: 0;
+    font-family: "Montserrat";
+    background-image: url(/images/pinkimage.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800px;
+}
+
+header {
+    padding-top: 6em;
+    padding-bottom: 1em;
+    background-color: #fff;
+    border:3px; 
+    border-style:solid; 
+    border-color:#000;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.heading {
+    font-family: "Montserrat";
+    color: #000;
+}
+
+ .index-page {
+    position: relative;
+    background-color: #fff;
+}
+
+.spaceafterimage{
+    padding-bottom:3em;
+    }
+
+.bottomspace {
+    padding-bottom: 2em;
+    }
+
+.thevintagetwin, .thebreak, .therealreal, .whatgoesaround {
+    display:flex;
+    flex-direction: row;
+    background-color: #fff;
+    border:2px; 
+     border-style:solid; 
+     border-color:#000;
+     padding: 1em;
+}
+
+.vintagetwinimgflex,.thebreakimgflex {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+.therealrealmageflex{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.whatfleximg {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ .vintagetwinflex, .thebreakflex, .therealrealflex, .whatgoesaroundflex {
+    padding-top: 1.5em;
+    display:flex;
+    flex-direction: column;
+    }
+.vintagetwinflex,  .thebreakflex{
+        padding-right:2em;
+    }
+.whatgoesaroundflex{
+    padding-left: 1em;
+}
+.padding {
+    display:flex;
+    flex-direction: column;
+        padding-left: 8em;
+    padding-right: 8em;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ a:link {
+  color: rgb(89, 138, 211); 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(220, 145, 157);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(175, 135, 199);
+  background-color: transparent;
+  text-decoration: underline;
+}
+nav a:link, nav a:visited {
+    color: white;
+}
+   .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .socialmedia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .name {
+    padding-top: 0.75em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    </style>
+</head>
+
+<body>
+    <!-- navbar-->
+    <nav class="w3-top">
+        <article class="w3-bar w3-black w3-center w3-padding w3-hover-opacity-off">
+            <a href="index.html" style="width:25%" class="w3-bar-item w3-button">Home</a>
+            <a href="restauraunts.html" style="width:25%" class="w3-bar-item w3-button">Restauraunts</a>
+            <a href="attractionss.html" style="width:25%" class="w3-bar-item w3-button">Attractions</a>
+            <a href="aboutme.html" style="width:25%" class="w3-bar-item w3-button">About Me</a>
+    </nav>
+    <div class="container">
+    <!-- header-->
+    <header>
+    <div class="header"></div>
+        <h1 class ="animate__animated animate__slideInDown"> my favorite nyc shops + boutiques </h1>
+    </header>
+<!--carousel-->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/vintagetwin3.jpg" class="d-block w-100" alt="VintageTwin">
+        </div>
+        <div class="carousel-item">
+            <img src="images/thebreak.jpg" class="d-block w-100" alt="The Break">
+        </div>
+        <div class="carousel-item">
+            <img src="images/therealreal.jpg" class="d-block w-100" alt="The Real Real">
+        </div>
+    <div class="carousel-item">
+        <img src="images/whatgoesaround.jpg" class="d-block w-100" alt="WhatGoesAroundComesAround">
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="false"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<!--Main-->
+<main>
+<div class="spaceafterimage"></div>
+    <!-- Vintage Twin-->
+    <div class="thevintagetwin">
+<div class="vintagetwinimgflex">
+<section id="vintageTwin" class="index-page">
+<img src="/images/vintagetwin1.jpg" class="vintagetwinimg" width="600px" alt="VintageTwin.jpg"/>
+</div>
+                
+                    <div class="vintagetwinflex">
+                    <p style="text-align:center;white-space:pre-wrap;">— Soho —</p>
+                    <h1 class="animate__animated animate__fadeInRight" style="text-align:center;white-space:pre-wrap;"><a
+                            href="https://www.thevintagetwin.com" class="vintagetwinlink">The Vintage Twin</a></h1>
+                    <p style="text-align:center;white-space:pre-wrap;">Founded in 2009 by twins Morgan and Samantha
+              Elias, The Vintage Twin has become 
+                one of New York’s most popular
+                    second-hand destinations. The sisters founded the brand after their friends repeatedly asked 
+                    about their one-of-a-kind, reworked, clothes. </p>
+                    <p style="text-align:center;white-space:pre-wrap;">   The Vintage Twin is best known for its collection of perfectly worn-in band tees, varsity
+                    sweatshirts, and sports jackets. Each item is completely unique thanks to an in-house 
+                    design team that takes already-made items 
+                and redesigns it for the Vintage Twin customer.</p>
+                    <p style="white-space:pre-wrap;"></p>
+                    <p style="text-align:center;white-space:pre-wrap;">543 Broadway, New York, NY 10012</p> &nbsp;
+                    <p style="text-align:center;white-space:pre-wrap;"><a href="http://www.thevintagetwin.com"
+                            target="_blank">Discover</a>
+                        &nbsp;</p>
+                </div>
+            </div>
+    </div>
+    <div class="spaceafterimage"></div>
+    </section>
+
+    
+    <!-- The Break -->
+    <div class="thebreak">
+        <div class="thebreakflex">
+    <section id="the break" class="index-page">
+        <p style="text-align:center;">— Williamsburg—</p>
+        <h1 class="animate__animated animate__fadeInLeft" style="text-align:center;white-space:normal">
+            <a href="http://www.shopthebreak.com">The Break</a></h1>
+        <p style="text-align:center;white-space:pre-wrap;">   This New York City-based shop was a pioneer for online vintage shopping when it launched in 2014. If you're in the area, check out its brick-and-mortar 
+            location in Brooklyn. If not, no worries. </p>
+        <p style="text-align:center;white-space:pre-wrap;">  Shop "The Catalogs," its Instagram-only shop where you can have your items shipped for a flat rate or picked up in-store. The Break's online shop specializes in higher-end and contemporary vintage pieces, <p style="text-align:center;white-space:pre-wrap;">so keep your eyes peeled for unique Anne Klein 
+            separates or a classic pair of Manolo Blahniks. Pro tip: Check the company's website and Instagram pages regularly for its amazing flash sales.</p>
+        <p style="text-align:center;white-space:pre-wrap;">41 Norman Ave, Brooklyn, NY 11222 </p>&nbsp;
+        <p style="text-align:center;white-space:pre-wrap;"><a href="http://www.shopthebreakcom" target="_blank">Discover</a>
+            &nbsp;</p>
+</div>
+            <div class="thebreakimgflex">
+        <img src="/images/thebreak.jpg" class="thebreakimg" width="600px" alt="The Break" /> </div> </div>
+    <div class="spaceafterimage">
+    </div>
+    </div>
+    </section>
+
+    <!-- The Real Real-->
+    <div class="padding">
+    <div class="therealreal">
+    <div class="therealrealmageflex">
+    <section id="therealreal" class="index-page">
+
+                             <img src="/images/therealreal.jpg" class="therealrealimg" alt="The Real Real" width="600px"/> </div>
+
+                    <div class="therealrealflex">
+                                <p style="text-align:center;white-space:pre-wrap;">— Upper East Side —</p>
+                                <h1 class="animate__animated animate__fadeInRight"style="text-align:center;white-space:pre-wrap;"><a
+                                        href="https://www.therealreal.com">The Real Real</a> </h1>
+                                <p style="text-align:center;white-space:pre-wrap;">    Born out of founder Julie Wainwright’s kitchen, 
+ The RealReal has become one of the largest consignment 
+    businesses in the world, with brick-and-mortar locations in 
+    Los Angeles and New York City in addition 
+    to its online shop. </p>
+    <p style="text-align:center;white-space:pre-wrap;"> 
+    Every second-hand item on the site is authenticated 
+    by a team of experts to ensure that you’re getting what 
+    you’re paying for and the quality of the pieces are almost 
+    in new to pristine conditions. What I love about the 
+    consignment site is that </p><p style="text-align:center;white-space:pre-wrap;"> 
+    The RealReal sends a portion of the sale to 
+    the person who listed the item, so you’re buying 
+    something for yourself and
+ helping someone else.</p>
+                                <p style="white-space:pre-wrap;"></p>
+                                <p style="text-align:center;white-space:pre-wrap;">870 Madison Ave, New York, NY 10021 </p>&nbsp;
+                                <p style="text-align:center;white-space:pre-wrap;"><a
+                                        href="https://www.therealreal.com">Discover</a>
+                                        &nbsp;</p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="spaceafterimage"></div>
+    </section>
+
+
+    <!-- What Goes Around Comes Around-->
+    <div class="padding">
+    <div class="whatgoesaround">
+        <div class="whatgoesaroundflex">
+    <section id="whatgoesaround" class="index-page">
+
+<p style="text-align:center;white-space:pre-wrap;">— Soho —</p>
+<h1 class="animate__animated animate__fadeInLeft" style="text-align:center;white-space:pre-wrap;"><a href="https://www.whatgoesaroundnyc.com">What Goes Around Comes
+        Around</a>
+</h1>
+<p style="text-align:center;white-space:pre-wrap;">   What Goes Around Comes Around has made a name for itself
+        as the destination for rare vintage finds.
+         It first opened in 1993 in NYC and has become the go-to spot for celebrities like Kendall Jenner and Kim Kardashian. </p> <p style="text-align:center;white-space:pre-wrap;">Come here first if you’re looking to invest in a classic bag or piece of jewelry forless than its retail price. 
+       The selections for accessories are top-notch, so don’t 
+            blame me if you finally end up treating yourself to 
+            that dream bag. </p><p style="text-align:center;white-space:pre-wrap;">  Even better, 10 percent of every purchase is donated to 
+                charities like Autism Speaks and The Make 
+                A Wish Foundation. 
+                Shopping with a cause? Sign me up.</p>
+<p style="text-align:center;white-space:pre-wrap;">351 West Broadway, New York, NY 10013</p>&nbsp;
+<p style="text-align:center;white-space:pre-wrap;">&nbsp;<a href="https://www.whatgoesaroundnyc.com/"
+        target="_blank">Discover</a>&nbsp;</p> </div>
+
+<div class="whatfleximg">
+<img src="/images/whatgoesaround.jpg" class="whatgoesaroundimg" width="600px" alt="What Goes Around Comes Around NYC" /> </div>
+
+    <div class="spaceafterimage"></div>
+                        </div>
+    </div>
+                   <!--Bottom Space--> 
+                                <div class="bottomspace"> </div>
+    </section>
+</main>
+</div>
+    <!-- footer-->
+<footer class="w3-center w3-black w3-padding-16">
+    <div class="footer">
+        <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i
+                class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="socialmedia">
+            <div class="w3-bar w3-black w3-hide-small">
+                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        <p class="name">Alexa Delacruz 2020</p>
+    </div>
+</footer>
+    <div class="w3-hide-small" style="margin-bottom:32px"> </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
+</body>
+</html>
