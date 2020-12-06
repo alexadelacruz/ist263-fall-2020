@@ -79,22 +79,7 @@ p {
   padding-top: 1.5em;
   color: #fff;
 }
-main {
-  padding: 4em;
-  background: url(images/nycnight1.jpg) no-repeat;
-  background-size: 100%;
-  background-position: center;
-  background-size: cover;
-}
 
-#icon {
-  background: url(images/AMSTERDAM.JPG) no-repeat;
-  background-size: 100%;
-  border-radius: 50%;
-  width: 75px;
-  height: 75px;
-  margin: 2em auto 1em auto;
-}
 .button {
   display: block;
   color: #fff;
@@ -107,7 +92,22 @@ main {
   border-radius: 4px;
   margin: 2em 0;
 }
+main {
+  padding: 4em;
+  background: url("/images/nycnight1.jpg") no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: cover;
+}
 
+#icon {
+  background: url("images/AMSTERDAM.JPG") no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  margin: 2em auto 1em auto;
+}
 @media only screen and (min-width: 768px) {
   body {
     display: grid;
@@ -126,14 +126,14 @@ aside {
 
 main {
   padding: 4em;
-  background: url("/images/nycnight1.jpg") no-repeat;
+  background-image: url("/images/nycnight1.jpg") no-repeat;
   background-size: 100%;
   background-position: center;
   background-size: cover;
 }
 
 #icon {
-  background: url("/images/AMSTERDAM.JPG") no-repeat;
+  background-image: url("/images/AMSTERDAM.JPG") no-repeat;
   background-size: 100%;
   border-radius: 50%;
   width: 75px;
@@ -183,4 +183,3 @@ p {
   font-size: 1.5em;
   text-align: center;
 }
-
