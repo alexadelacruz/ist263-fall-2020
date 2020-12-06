@@ -93,14 +93,6 @@ p {
   margin: 2em 0;
 }
 
-@media only screen and (min-width: 768px) {
-  body {
-    display: grid;
-    grid-template-columns: 20% auto;
-    height: 100%;
-  }
-}
-
 aside {
   background: #000;
   grid-template-columns: auto;
