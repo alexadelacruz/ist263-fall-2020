@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Alexa's Guide to NYC</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<style>
+     @font-face {
+    font-family: 'Grayscale Signature Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Grayscale Signature Regular'), url('Grayscale Signature.woff') format('woff');
+    }
+    h1,
+    h2  {
+        font-family: 'Grayscale Signature Regular';
+    }
+h3, h4, h6, .alexa {
+    font-family: "Montserrat";
+}
+
+    body {
+        font-family: "Montserrat";
+        background-image: url('images/whitebrickk.jpg');
+    }
+    .w3-xxxlarge {
+        padding-top: 30px;
+        color: #027AB9;
+    }
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .socialmedia{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+ .name {
+    padding-top: 0.75em;
+    padding-right: 0.75em;
+    display: flex;
+    flex-direction: column;
+    }
+    .alexa {
+        color: #0AADDE;
+        letter-spacing: 1px;
+    }
+    .topchoices {
+        padding-top: 0.2em;
+        font-size: 5em;
+    }
+   @media only screen and (min-width : 320px) and (max-width : 458px) {
+    .topchoices 
+      {font-size: 3.2em;}
+    }
+ 
+</style>
+</head>
+<body class="w3-light-grey">
+    <nav class="w3-top">
+        <article class="w3-bar w3-black w3-center w3-padding w3-opacity-low w3-hover-opacity-off">
+            <a href="index.html" style="width:25%" class="w3-bar-item w3-button">Home</a>
+            <a href="restauraunts.html" style="width:25%" class="w3-bar-item w3-button">Restauraunts</a>
+            <a href="testboutique.html" style="width:25%" class="w3-bar-item w3-button">Boutiques</a>
+            <a href="aboutme.html" style="width:25%" class="w3-bar-item w3-button">About Me</a>
+    </nav>
+
+
+
+    <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+    <div class="w3-content" style="max-width:1600px">
+
+        <!-- Header -->
+        <header class="w3-container w3-center w3-padding-48 w3-white">
+            <h1 class="animate__animated animate__slideInDown w3-xxxlarge"><b>my favorite things to do in nyc </b></h1>
+            <h6>my top<span class="w3-tag">recommendations</span></h6>
+        </header>
+
+        <!-- Image header -->
+        <header class="w3-display-container w3-wide" id="home">
+            <img class="w3-image" src="images/citibike.png" alt="Citi Bike" width="1600" height="1060">
+            <div class="w3-display-left w3-padding-large">
+                <h1 class="animate__animated animate__fadeInLeft w3-text-white alexa">Alexa's</h1>
+                <h1 class="animate__animated animate__fadeInLeft w3-text-white topchoices"><b>Top Choices</b></h1>
+                        <p><button type="button" class="button" data-toggle="modal" data-target="#exampleModal">
+                                Subscribe
+                            </button></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Grid -->
+        <div class="w3-row w3-padding w3-border">
+
+
+            <div class="w3-col l8 s12">
+
+                <!--Citibike -->
+                <main>
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>Citibike Through the City
+                            
+                        </h3>
+                    
+                    </div>
+
+                    <div class="w3-justify">
+                        <img src="images/citibikecity.png" alt="Citi Bike" style="width:80%" class="w3-padding-16">
+                        <p><strong>There’s nothing better than a bike ride through New York City.</strong> <p>With nearly 85 new stations being added as a part of the ongoing 2019 Expansion, there is an endless array of new
+                        neighborhoods, parks and local shops you’re able to explore with Citi Bike now. Find the new stations in or around your
+                        neighborhood by visiting the station map here or on your Citi Bike or Lyft app. Be sure to check out some of our favorite spots and activities happening this fall: Maria Hernandez Park, Bushwick; Central Park - A favorite of locals and tourists alike, celebrate the upcoming holiday season at one of the two ice rinks in Central Park - an iconic NYC moment. Take a ride to either the Lasker Rink or Wollman Rink within the park starting now through the winter months. And don’t forget to bundle up!
+</p>
+                       
+                        <div class="w3-row w3-margin-bottom" id="demo1" style="display:none">
+
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Ice Skating-->
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>Ice Skating at the Vale</h3>
+                    </div>
+
+                    <div class="w3-justify">
+                        <img src="images/iceskating.jpg" alt="Ice Skating" width="80%" class="w3-padding-16">
+                        <p><strong>Did you know you can take in stunning skyline views atop The William Vale while on your ice skates?</strong> </p> <p>Starting December 2,
+                        the hotel's 23rd-floor rooftop is the home of Vale Rink, where you can do your spins and lutzes high above Brooklyn with
+                        major views of Manhattan's skyline. Doing laps at the rink is $20 for adults and $12 for kids, which includes skate
+                        rentals. The new Vale Rink has a big advantage that other NYC rinks don't have— it's made with synthetic ice by Glice
+                        which is said to provide a smoother glide than the natural stuff. It doesn't require much maintenance and sticks around
+                        even if the temperature goes above freezing. It's open Wednesday - Friday, 2-10pm, and Saturday & Sunday, noon-10pm.</p>
+                     
+
+              
+                        <div id="demo2" style="display:none">
+                            <div class="w3-row">
+                                <hr>
+                                <div class="w3-col l2 m3">
+                                  
+                                </div>
+                                <div class="w3-col l10 m9">
+                                <br>
+                                </div>
+                            </div>
+                            <div class="w3-row w3-margin-bottom">
+                                <div class="w3-col l2 m3">
+                                
+                                </div>
+                                <div class="w3-col l10 m9">
+                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MoMA -->
+                <div class="w3-container w3-white w3-margin w3-padding-large">
+                    <div class="w3-center">
+                        <h3>Take a Trip to the Museum of Modern Art</h3>
+                    </div>
+
+                    <div class="w3-justify">
+                        <img src="images/moma.jpg" alt="MoMA" height="70%" style="width:80%" class="w3-padding-16">
+                        <p><strong>Founded in 1929 as the first museum dedicated entirely to contemporary art,  </strong>MoMA, in Midtown East, is host to an
+                        impressive collection of modern artistic efforts in a variety of media that includes paintings, sculpture, design, and
+                        film. Some of the museum's most famous works include Vincent Van Gogh’s "Starry Night" and Pablo Picasso’s "Les
+                        Demoiselles d'Avignon." MoMA is also a thriving center of cultural events, including educational programs and
+                        international films.
+                        
+                        The museum offers special events and activities for families with children as young as four-years-old, making it a very
+                        family-friendly choice.
+                        </p>
+                       
+
+                     
+                        <div id="demo3" style="display:none">
+                            <hr>
+                            <div class="w3-row w3-margin-bottom">
+                                <div class="w3-col l2 m3">
+                            
+                                </div>
+                                <div class="w3-col l10 m9">
+                                
+                                </div>
+                            </div>
+                            <div class="w3-row w3-margin-bottom">
+                                <div class="w3-col l2 m3">
+                          
+                                </div>
+                                <div class="w3-col l10 m9">
+                                
+                                </div>
+                            </div>
+                            <div class="w3-row w3-margin-bottom">
+                           
+                                <div class="w3-col l10 m9">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- END OF ARTICLES-->
+            </div>
+</main>
+            <!-- About/Information menu -->
+            <div class="w3-col l4">
+                <!-- About Card -->
+                <div class="w3-white w3-margin">
+                    <img src="images/parisface.jpg" height ="350" alt="Alexa" style="width:100%">
+                    <div class="w3-container w3-black">
+                        <h4 class="w3-xlarge"><a href="aboutme.html">About Me</h4></a>
+                        <p>Hello! My name is Alexa Delacruz and I am currently a sophomore at Syracuse University. I was born in manhattan and raised in Brooklyn all my life. I have the experience and credentials
+                        to recommend you the best places here. Explore all the cool spots in NYC to to eat, shop, and explore through my website. Enjoy! </p>
+                    </div>
+                </div>
+                <hr>
+
+                <!-- Discover More -->
+                <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                        <h4 class="w3-xlarge">Discover More</h4>
+                    </div>
+                    <ul class="w3-ul w3-hoverable w3-white">
+                        <li class="w3-padding-16">
+                            <img src="images/rubyscafe.jpg" alt="Restauraunts" class="w3-left w3-margin-right"
+                                style="width:50px">
+                            <span class="w3-large"><a href="restauraunts.html">Restauraunts</span></a>
+                            <br>
+                            <span>Check out some good places to eat</span>
+                        </li>
+                        <li class="w3-padding-16">
+                            <img src="images/vintagetwin1.jpg" alt="Stores" class="w3-left w3-margin-right"
+                                style="width:50px">
+                            <span class="w3-large"><a href="testboutique.html">Boutiques</span>
+                            <br></a>
+                            <span>Discover some new trendy places to shop</span>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <hr>
+
+              
+                <!-- Subscribe -->
+                <div class="w3-white w3-margin">
+                    <div class="w3-container w3-padding w3-black">
+                        <h4 class="w3-xlarge">Stay Connected</h4>
+                    </div>
+                    <div class="w3-container w3-white">
+                        <p>Subscribe and stay updated on all the latest NYC discoveries. </p>
+                        <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%">
+                        </p>
+                        <p><button type="button" class="button" data-toggle="modal" data-target="#exampleModal">
+                            Subscribe
+                        </button></p>
+                    </div>
+                </div>
+
+                <!-- END About/Intro Menu -->
+            </div>
+
+            <!-- END GRID -->
+        </div>
+
+        <!-- END w3-content -->
+    </div>
+
+    <!-- Subscribe Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Subscribe</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                You're officially subscribed to my mailing list!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Unsubscribe</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+  
+<footer class="w3-center w3-black w3-padding-16">
+    <div class="footer">
+        <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom"><i
+                class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="socialmedia">
+            <!--Social media tags are hidden when the page window is smallest it can be -->
+        <div class="w3-bar w3-black w3-hide-small">
+                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
+                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>
+            </div>
+            </div>
+                <p class="name">Alexa Delacruz 2020</p>
+    </div>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
